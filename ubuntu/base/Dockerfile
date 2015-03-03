@@ -15,4 +15,4 @@ RUN mkdir -p /tmp/build/
 ADD java /tmp/build/java/
 RUN /bin/bash /tmp/build/java/install.sh
 
-RUN apt-get -y install man
+RUN apt-get -y install man ftp
